@@ -3,6 +3,10 @@ import { slide1, slide2, slide3} from '../assets'
 
 export const navLinks = [
   {
+        id: "home",
+        title: "Home",
+      },
+  {
         id: "hotel",
         title: "Hotel",
   },
@@ -21,8 +25,8 @@ export const navLinks = [
     title: "Deals",
   },
   {
-    id: "english",
-    title: "English",
+    id: "language",
+    title: "Lang",
   },
   {
     id: "prices",

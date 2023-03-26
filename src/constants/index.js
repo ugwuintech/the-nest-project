@@ -28,9 +28,6 @@ export const navLinks = [
     id: "language",
     title: "Lang",
   },
-  {
-    id: "prices",
-    title: "Prices",
-  },
+
 ]
 

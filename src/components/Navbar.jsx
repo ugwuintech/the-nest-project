@@ -6,7 +6,7 @@ import { menu, logo, close } from '../assets'
 
 
 const Navbar = () => {
-const [active, setActive] = useState("Hotel")
+const [active, setActive] = useState("Home")
 const [toggle, setToggle] = useState(false)
 
   return ( 
@@ -18,7 +18,7 @@ const [toggle, setToggle] = useState(false)
       
       <Link to="/" className='flex item-center gap-2'
         onClick={() => {
-          setActive("");
+          setActive("Home");
           window.scrollTo(0, 0);
         }}>
         <img src={logo} alt="logo" className='w-13 h-12 object-contain cursor-pointer' />

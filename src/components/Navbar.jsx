@@ -55,7 +55,7 @@ const [toggle, setToggle] = useState(false)
                 <a href={`#${link.id}`}>{link.title}</a>
               </li>
             ))}
-              <button  className='button'>Book Now</button>
+              <button  className='button'>Sign Up</button>
             </ul>
             
 

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,12 +10,31 @@
   font-family: "Montserrat", sans-serif;
   scroll-behavior: smooth;
   color-scheme: light;
+  /* background-color: #f3f9ff; */
+}
+
+/* body {
+  background-color: #f3f9ff;
+} */
+
+.slick-prev {
+  left: 2% !important;
+  z-index: 1;
+}
+
+.slick-next {
+  right: 3% !important;
+  z-index: 1;
 }
 
 .hash-span {
   margin-top: -100px;
   padding-bottom: 100px;
   display: block;
+}
+
+.carousel {
+  display: flex !important;
 }
 
 .black-gradient {
@@ -45,11 +64,7 @@
 .blue-gradient {
   background: #60a5fa;
   background: linear-gradient(-90deg, #60a5fa 0%, rgba(60, 51, 80, 0) 100%);
-  background: -webkit-linear-gradient(
-    -90deg,
-    #60a5fa 0%,
-    rgb(51, 68, 80) 100%
-  );
+  background: -webkit-linear-gradient(-90deg, #60a5fa 0%, rgb(51, 68, 80) 100%);
 }
 
 .green-pink-gradient {
@@ -212,7 +227,6 @@
   }
 }
 
-
 button {
   border-radius: 8px;
   border: 1px solid white;
@@ -232,4 +246,3 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
-

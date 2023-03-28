@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         primary: "#2A9FE1",
+        body: "#F3F9FF",
         secondary: "#dadce0",
         tertiary: "#151030",
         "black-100": "#100d25",
@@ -23,4 +24,4 @@ module.exports = {
     },
   },
   plugins: [],
-}
+};

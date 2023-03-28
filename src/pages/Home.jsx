@@ -1,19 +1,17 @@
-import React from 'react'
-import Benefits from '../components/Benefits'
-import Testimonial from '../components/Testimonial'
-import Hero from '../components/Hero'
-import SectionWrapper from '../hoc/SectionWrapper'
-
-
+import React from "react";
+import Benefits from "../components/Benefits";
+import Testimonial from "../components/Testimonial";
+import Hero from "../components/Hero";
+import SectionWrapper from "../hoc/SectionWrapper";
 
 const Home = () => {
   return (
     <>
-    <Hero />
+      <Hero />
       <Benefits />
-      <Testimonial/>
-      </>
-  )
-}
+      <Testimonial />
+    </>
+  );
+};
 
-export default SectionWrapper(Home, "")
+export default SectionWrapper(Home, "");

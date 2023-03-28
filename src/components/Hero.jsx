@@ -1,12 +1,12 @@
-import React from 'react'
-import Carousel from './Carousel'
+import React from "react";
+import Carousel from "./Carousel";
 
 const Hero = () => {
-    return (
-        <section className='relative w-full h-screen'>
-            <Carousel />
+  return (
+    <section className="relative w-full h-screen">
+      <Carousel />
     </section>
-  )
-}
+  );
+};
 
-export default Hero
+export default Hero;

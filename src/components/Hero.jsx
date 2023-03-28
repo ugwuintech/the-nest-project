@@ -3,7 +3,7 @@ import Carousel from "./Carousel";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen">
+    <section className="relative w-full">
       <Carousel />
     </section>
   );

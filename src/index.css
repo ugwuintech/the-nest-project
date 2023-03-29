@@ -37,6 +37,12 @@
   display: flex !important;
 }
 
+@media only screen and (max-width: 400px) {
+  .icon {
+    font-size: 1em;
+  }
+}
+
 .black-gradient {
   background: #fff; /* fallback for old browsers */
   background: -webkit-linear-gradient(

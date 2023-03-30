@@ -3,6 +3,8 @@ import Benefits from "../components/Benefits";
 import Testimonial from "../components/Testimonial";
 import Hero from "../components/Hero";
 import SectionWrapper from "../hoc/SectionWrapper";
+import Services from "../components/Services";
+import Footer from "../components/Footer";
 
 const Home = () => {
   return (
@@ -10,6 +12,7 @@ const Home = () => {
       <Hero />
       <Benefits />
       <Testimonial />
+      <Services />
     </>
   );
 };

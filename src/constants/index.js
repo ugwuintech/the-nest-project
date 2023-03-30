@@ -1,24 +1,20 @@
-import { slide1, slide2, slide3} from '../assets'
-
-
 export const navLinks = [
   {
-        id: "home",
-        title: "Home",
-      },
-  {
-        id: "hotel",
-        title: "Hotel",
+    id: "home",
+    title: "Home",
   },
- 
+  {
+    id: "hotel",
+    title: "Hotel",
+  },
 
-      {
-        id: "accomodation",
-        title: "Accomodation",
-      },
-      {
-        id: "flight",
-        title: "Flight",
+  {
+    id: "accomodation",
+    title: "Accomodation",
+  },
+  {
+    id: "flight",
+    title: "Flight",
   },
   {
     id: "deals",
@@ -28,6 +24,4 @@ export const navLinks = [
     id: "language",
     title: "Lang",
   },
-
-]
-
+];

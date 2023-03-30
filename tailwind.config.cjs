@@ -8,6 +8,7 @@ module.exports = {
         body: "#F3F9FF",
         secondary: "#dadce0",
         tertiary: "#151030",
+        footer: "#0a0a0a",
         "black-100": "#100d25",
         "black-200": "#090325",
         "white-100": "#f3f3f3",

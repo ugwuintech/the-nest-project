@@ -1,6 +1,6 @@
 import React from "react";
 import Carousel from "./Carousel";
-
+import SectionWrapper from "../hoc/SectionWrapper";
 const Hero = () => {
   return (
     <section className="relative w-full">
@@ -9,4 +9,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default SectionWrapper(Hero, "");

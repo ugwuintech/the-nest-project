@@ -31,9 +31,10 @@ const Footer = () => {
               quisquam quia consequuntur laborum quas.
             </p>
           </div>
+
           {/* second div */}
 
-          <div className="flex lg:flex-row flex-col justify-between mt-12  gap-10">
+          <div className="flex lg:flex-row flex-col justify-between mt-8 lg:mt-12  gap-10">
             <div className="flex flex-col">
               <h3 className={`${styles.sectionSubText}`}>Services</h3>
               <a href="">Overview</a>
@@ -59,6 +60,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
+        <div className="text-center mt-3">&copy; All Rights Reserved</div>
       </div>
     </div>
   );

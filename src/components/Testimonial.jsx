@@ -1,4 +1,5 @@
 import React from "react";
+import SectionWrapper from "../hoc/SectionWrapper";
 import { styles } from "../styles";
 import { rebecca } from "../assets";
 import { BsStarFill } from "react-icons/bs";
@@ -39,4 +40,4 @@ const Testimonial = () => {
   );
 };
 
-export default Testimonial;
+export default SectionWrapper(Testimonial, "");

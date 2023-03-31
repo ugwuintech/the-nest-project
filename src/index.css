@@ -18,15 +18,25 @@
 } */
 
 .slick-prev {
-  left: 2% !important;
+  left: 3% !important;
+  z-index: 1;
+  cursor: pointer;
+  display: none !important;
+}
+
+.slick-next {
+  right: 3% !important;
   z-index: 1;
   cursor: pointer;
 }
 
-.slick-next {
-  right: 15% !important;
-  z-index: 1;
-  cursor: pointer;
+.slick-next:before {
+  font-size: 40px !important;
+  color: #434343;
+}
+
+.slick-prev:before {
+  font-size: 40px !important;
 }
 
 .hash-span {

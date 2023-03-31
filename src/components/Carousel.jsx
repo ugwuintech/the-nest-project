@@ -49,7 +49,7 @@ const Carousel = () => {
   return (
     <>
       <Slider {...settings}>
-        <div className="flex flex-row gap-10 lg:gap-28 overflow-hidden carousel">
+        <div className="flex flex-row gap-10 lg:gap-28 mt-3 overflow-hidden carousel">
           <div
             // variants={slideIn("left", "tween", 0.2, 1)}
             className="flex lg:w-[500px] w-[150px] flex-col"
@@ -57,7 +57,7 @@ const Carousel = () => {
             <h1 className={`${styles.heroHeadText}`}>
               Marvel <span className="text-primary">Travel.</span>
             </h1>
-            <h1 className="lg:text-[60px] sm:text-[30px] xs:text-[25px] text-[18px] lg:leading-[68px]">
+            <h1 className={`${styles.heroHeadText}`}>
               Exploring the <br />
               magic of <br /> technology <br /> & travel
             </h1>

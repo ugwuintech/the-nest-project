@@ -1,4 +1,6 @@
-export const navLinks = [
+import { service1, service2, service3 } from "../assets";
+
+const navLinks = [
   {
     id: "home",
     title: "Home",
@@ -25,3 +27,5 @@ export const navLinks = [
     title: "Lang",
   },
 ];
+
+export { navLinks };

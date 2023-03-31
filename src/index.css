@@ -18,25 +18,27 @@
 } */
 
 .slick-prev {
-  left: 3% !important;
+  left: -3% !important;
+
   z-index: 1;
   cursor: pointer;
-  display: none !important;
 }
 
 .slick-next {
-  right: 3% !important;
+  right: -3% !important;
+
   z-index: 1;
   cursor: pointer;
 }
 
 .slick-next:before {
-  font-size: 40px !important;
+  font-size: 20px !important;
   color: #434343;
 }
 
 .slick-prev:before {
-  font-size: 40px !important;
+  font-size: 20px !important;
+  color: #434343;
 }
 
 .hash-span {

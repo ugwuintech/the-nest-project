@@ -18,14 +18,14 @@
 } */
 
 .slick-prev {
-  left: -3% !important;
+  left: -6% !important;
 
   z-index: 1;
   cursor: pointer;
 }
 
 .slick-next {
-  right: -3% !important;
+  right: -6% !important;
 
   z-index: 1;
   cursor: pointer;

@@ -8,7 +8,7 @@ import ContactUs from "../components/ContactUs";
 
 const Home = () => {
   return (
-    <div className="bg-body bg-full">
+    <div>
       <Hero />
       <Benefits />
       <Testimonial />

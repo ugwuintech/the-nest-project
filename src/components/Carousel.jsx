@@ -49,7 +49,7 @@ const Carousel = () => {
   return (
     <>
       <Slider {...settings}>
-        <div className="flex flex-row gap-10 lg:gap-28 mt-3 overflow-hidden carousel">
+        <div className="flex flex-row gap-10 lg:gap-28 mt-[50px] overflow-hidden carousel">
           <div
             // variants={slideIn("left", "tween", 0.2, 1)}
             className="flex lg:w-[500px] w-[150px] flex-col"
@@ -78,7 +78,7 @@ const Carousel = () => {
           </div>
         </div>
 
-        <div className="flex flex-row gap-10 lg:gap-28 overflow-hidden mt-3 carousel">
+        <div className="flex flex-row gap-10 lg:gap-28 overflow-hidden mt-[50px] carousel">
           <div
             // variants={slideIn("left", "tween", 0.2, 1)}
             className="flex lg:w-[500px] w-[150px] flex-col"
@@ -104,7 +104,7 @@ const Carousel = () => {
           </div>
         </div>
 
-        <div className="flex flex-row gap-10 lg:gap-28 overflow-hidden mt-3 carousel">
+        <div className="flex flex-row gap-10 lg:gap-28 overflow-hidden mt-[50px] carousel">
           <div
             // variants={slideIn("left", "tween", 0.2, 1)}
             className="flex lg:w-[500px] w-[150px] flex-col"

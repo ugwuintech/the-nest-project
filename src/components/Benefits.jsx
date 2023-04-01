@@ -13,8 +13,8 @@ const Benefits = () => {
   return (
     <div>
       <motion.h1
-        variants={fadeIn("", "", 0.1, 1)}
-        className={`${styles.sectionHeadText}`}
+        variants={fadeIn("", "", 0.05, 1)}
+        className={`${styles.sectionHeadText} text-center`}
       >
         Why Choose Us?
       </motion.h1>

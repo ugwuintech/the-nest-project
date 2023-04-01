@@ -16,7 +16,7 @@ const settings = {
   slidesToScroll: 1,
   initialSlide: 0,
   autoplay: true,
-  autoplaySpeed: 5000,
+  autoplaySpeed: 4000,
   responsive: [
     {
       breakpoint: 1024,
@@ -56,13 +56,13 @@ const Carousel = () => {
           >
             <motion.h1
               className={`${styles.heroHeadText}`}
-              variants={fadeIn("", "", 0.1, 1)}
+              variants={fadeIn("", "", 0.7, 1)}
             >
               Marvel <span className="text-primary">Travel.</span>
             </motion.h1>
             <motion.h1
               className={`${styles.heroHeadText}`}
-              variants={fadeIn("", "", 0.2, 1)}
+              variants={fadeIn("", "", 0.9, 1)}
             >
               Exploring the <br />
               magic of <br /> technology <br /> & travel

@@ -3,6 +3,8 @@ import SectionWrapper from "../hoc/SectionWrapper";
 import { styles } from "../styles";
 import { service1, service2, service3 } from "../assets";
 import Slider from "react-slick";
+import { fadeIn } from "../utils/motion";
+import { motion } from "framer-motion";
 
 const settings = {
   dots: true,
@@ -44,9 +46,12 @@ const Services = () => {
   return (
     <div>
       {" "}
-      <h1 className={`${styles.sectionHeadText} mb-3 text-center`}>
+      <motion.h1
+        variants={fadeIn("", "", 0.1, 1)}
+        className={`${styles.sectionHeadText} mb-3 text-center`}
+      >
         What Can We Do For You?
-      </h1>
+      </motion.h1>
       <Slider {...settings}>
         <div className="carousel">
           <a

@@ -1,20 +1,25 @@
 import React from "react";
 import SectionWrapper from "../hoc/SectionWrapper";
-
+import { motion } from "framer-motion";
+import { slideIn } from "../utils/motion";
 const ContactUs = () => {
   return (
     <div>
       {" "}
-      <h1 className="font-black md:text-[40px] sm:text-[30px] xs:text-[20px] text-[30px] mb-2 text-center">
+      <motion.h1
+        variants={slideIn("right", "tween", 0.1, 1)}
+        className="font-black md:text-[40px] sm:text-[30px] xs:text-[20px] text-[30px] mb-2 text-center"
+      >
         We Want To Keep In Touch With You
-      </h1>
-      <p
+      </motion.h1>
+      <motion.p
+        variants={slideIn("left", "tween", 0.1, 1)}
         class="font-medium tracking-wider mt-3 lg:text-[20px] sm:text-[16px]
               xs:text-[10px] text-[16px] mx-10 mb-5 text-center "
       >
         Subscribe to our news letter and get our latest updates and offers as
         soon as possible.
-      </p>
+      </motion.p>
       <div className=" flex lg:flex-row flex-col gap-5 items-center">
         <input
           type="email"

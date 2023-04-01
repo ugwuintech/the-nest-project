@@ -3,6 +3,8 @@ import SectionWrapper from "../hoc/SectionWrapper";
 import { styles } from "../styles";
 import { europe, africa, germany } from "../assets";
 import Slider from "react-slick";
+import { fadeIn } from "../utils/motion";
+import { motion } from "framer-motion";
 
 const settings = {
   dots: true,
@@ -44,9 +46,12 @@ const Destination = () => {
   return (
     <div>
       {" "}
-      <h1 className={`${styles.sectionHeadText} mb-5 text-center`}>
+      <motion.h1
+        variants={fadeIn("", "", 0.1, 1)}
+        className={`${styles.sectionHeadText} mb-5 text-center`}
+      >
         Choose Your Destination
-      </h1>
+      </motion.h1>
       <Slider {...settings}>
         <div className="carousel">
           <a

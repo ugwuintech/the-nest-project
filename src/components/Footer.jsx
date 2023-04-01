@@ -1,7 +1,5 @@
 import React from "react";
-import { TiSocialTwitterCircular } from "react-icons/ti";
 import { BsFacebook, BsTwitter, BsInstagram, BsWhatsapp } from "react-icons/bs";
-import { TiSocialInstagramCircular } from "react-icons/ti";
 import { styles } from "../styles";
 
 const Footer = () => {

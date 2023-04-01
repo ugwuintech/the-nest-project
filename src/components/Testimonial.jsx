@@ -4,13 +4,18 @@ import { styles } from "../styles";
 import { rebecca } from "../assets";
 import { BsStarFill } from "react-icons/bs";
 import { BsStar } from "react-icons/bs";
+import { fadeIn } from "../utils/motion";
+import { motion } from "framer-motion";
 
 const Testimonial = () => {
   return (
     <div>
-      <h1 className={`${styles.sectionHeadText} text-center`}>
+      <motion.h1
+        variants={fadeIn("", "", 0.1, 1)}
+        className={`${styles.sectionHeadText} text-center`}
+      >
         Our Client's Feedback
-      </h1>
+      </motion.h1>
       <div className="flex lg:flex-row flex-col gap-10">
         <div className="image">
           <img src={rebecca} alt="benefits image" />

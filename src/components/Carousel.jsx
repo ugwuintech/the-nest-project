@@ -1,8 +1,8 @@
 import React from "react";
 import { slide1, slide2, slide3 } from "../assets";
 import { styles } from "../styles";
-import { slideIn } from "../utils/motion";
-// import { motion } from "framer-motion";
+import { fadeIn } from "../utils/motion";
+import { motion } from "framer-motion";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
@@ -54,13 +54,19 @@ const Carousel = () => {
             // variants={slideIn("left", "tween", 0.2, 1)}
             className="flex lg:w-[500px] w-[150px] flex-col"
           >
-            <h1 className={`${styles.heroHeadText}`}>
+            <motion.h1
+              className={`${styles.heroHeadText}`}
+              variants={fadeIn("", "", 0.1, 1)}
+            >
               Marvel <span className="text-primary">Travel.</span>
-            </h1>
-            <h1 className={`${styles.heroHeadText}`}>
+            </motion.h1>
+            <motion.h1
+              className={`${styles.heroHeadText}`}
+              variants={fadeIn("", "", 0.2, 1)}
+            >
               Exploring the <br />
               magic of <br /> technology <br /> & travel
-            </h1>
+            </motion.h1>
             <p className={`${styles.heroSubText}`}>
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita
               possimus id fuga, repudiandae, o fficia perferendis odit

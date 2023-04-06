@@ -56,7 +56,7 @@ const Destination = () => {
         <div className="carousel">
           <a
             href="#"
-            class="h-full bg-white border border-gray-200  xs:w-[320px] w-full shadow p-5"
+            className="h-full bg-white border border-gray-200  xs:w-[320px] w-full shadow p-5"
           >
             <img
               src={europe}
@@ -64,7 +64,7 @@ const Destination = () => {
               className="w-full max-h-300px"
             />
             <p
-              class="tracking-wider mt-3 font-bold lg:text-[20px] sm:text-[18px]
+              className="tracking-wider mt-3 font-bold lg:text-[20px] sm:text-[18px]
               xs:text-[10px] text-[18px] mx-5 text-center"
             >
               Europe
@@ -75,7 +75,7 @@ const Destination = () => {
         <div className="carousel">
           <a
             href="#"
-            class="h-full bg-white border border-gray-200 xs:w-[320px] w-full shadow p-5"
+            className="h-full bg-white border border-gray-200 xs:w-[320px] w-full shadow p-5"
           >
             <img
               src={africa}
@@ -83,7 +83,7 @@ const Destination = () => {
               className="w-full max-h-300px "
             />
             <p
-              class="tracking-wider mt-3 font-bold lg:text-[20px] sm:text-[18px]
+              className="tracking-wider mt-3 font-bold lg:text-[20px] sm:text-[18px]
               xs:text-[10px] text-[18px] mx-5 text-center"
             >
               Africa
@@ -94,7 +94,7 @@ const Destination = () => {
         <div className="carousel">
           <a
             href="#"
-            class="h-full bg-white border border-gray-200 xs:w-[320px] w-full shadow p-5"
+            className="h-full bg-white border border-gray-200 xs:w-[320px] w-full shadow p-5"
           >
             <img
               src={germany}
@@ -102,7 +102,7 @@ const Destination = () => {
               className="w-full max-h-300px "
             />
             <p
-              class="tracking-wider mt-3 font-bold lg:text-[20px] sm:text-[18px]
+              className="tracking-wider mt-3 font-bold lg:text-[20px] sm:text-[18px]
               xs:text-[10px] text-[18px] mx-5 text-center"
             >
               Germany
@@ -113,7 +113,7 @@ const Destination = () => {
         <div className="carousel">
           <a
             href="#"
-            class="h-full bg-white border border-gray-200 xs:w-[320px] w-full shadow p-5"
+            className="h-full bg-white border border-gray-200 xs:w-[320px] w-full shadow p-5"
           >
             <img
               src={africa}
@@ -121,7 +121,7 @@ const Destination = () => {
               className="w-full max-h-300px "
             />
             <p
-              class="tracking-wider mt-3 font-bold lg:text-[20px] sm:text-[18px]
+              className="tracking-wider mt-3 font-bold lg:text-[20px] sm:text-[18px]
               xs:text-[10px] text-[18px] mx-5 text-center"
             >
               Africa
@@ -132,7 +132,7 @@ const Destination = () => {
         <div className="carousel">
           <a
             href="#"
-            class="h-full bg-white border border-gray-200 xs:w-[320px] w-full shadow p-5"
+            className="h-full bg-white border border-gray-200 xs:w-[320px] w-full shadow p-5"
           >
             <img
               src={europe}
@@ -140,7 +140,7 @@ const Destination = () => {
               className="w-full max-h-300px "
             />
             <p
-              class="tracking-wider mt-3 font-bold lg:text-[20px] sm:text-[18px]
+              className="tracking-wider mt-3 font-bold lg:text-[20px] sm:text-[18px]
               xs:text-[10px] text-[18px] mx-5 text-center"
             >
               Europe

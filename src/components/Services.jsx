@@ -56,7 +56,7 @@ const Services = () => {
         <div className="carousel">
           <a
             href="#"
-            class="h-full bg-white border border-gray-200 rounded-3xl xs:w-[320px] w-full shadow"
+            className="h-full bg-white border border-gray-200 rounded-3xl xs:w-[320px] w-full shadow"
           >
             <img
               src={service1}
@@ -64,7 +64,7 @@ const Services = () => {
               className="w-full max-h-250px rounded-t-3xl"
             />
             <p
-              class="tracking-wider mt-3 lg:text-[20px] sm:text-[18px]
+              className="tracking-wider mt-3 lg:text-[20px] sm:text-[18px]
               xs:text-[10px] text-[18px] mx-5 text-center"
             >
               Get affordable flights from wherever you are
@@ -78,7 +78,7 @@ const Services = () => {
         <div className="carousel">
           <a
             href="#"
-            class="h-full bg-white border border-gray-200 rounded-3xl xs:w-[320px] w-full shadow"
+            className="h-full bg-white border border-gray-200 rounded-3xl xs:w-[320px] w-full shadow"
           >
             <img
               src={service2}
@@ -86,7 +86,7 @@ const Services = () => {
               className="w-full max-h-250px rounded-t-3xl"
             />
             <p
-              class="tracking-wider mt-3 lg:text-[20px] sm:text-[18px]
+              className="tracking-wider mt-3 lg:text-[20px] sm:text-[18px]
               xs:text-[10px] text-[18px] mx-5 text-center"
             >
               Find Suitable accomodation for you
@@ -100,7 +100,7 @@ const Services = () => {
         <div className="carousel">
           <a
             href="#"
-            class="h-full bg-white border border-gray-200 rounded-3xl xs:w-[320px] w-full shadow"
+            className="h-full bg-white border border-gray-200 rounded-3xl xs:w-[320px] w-full shadow"
           >
             <img
               src={service3}
@@ -108,7 +108,7 @@ const Services = () => {
               className="w-full max-h-250px rounded-t-3xl"
             />
             <p
-              class="tracking-wider mt-3 lg:text-[20px] sm:text-[18px]
+              className="tracking-wider mt-3 lg:text-[20px] sm:text-[18px]
               xs:text-[10px] text-[18px] mx-5 text-center"
             >
               Get the most exciting holiday packages
@@ -122,7 +122,7 @@ const Services = () => {
         <div className="carousel">
           <a
             href="#"
-            class="h-full bg-white border border-gray-200 rounded-3xl xs:w-[320px] w-full shadow"
+            className="h-full bg-white border border-gray-200 rounded-3xl xs:w-[320px] w-full shadow"
           >
             <img
               src={service1}
@@ -130,7 +130,7 @@ const Services = () => {
               className="w-full max-h-250px rounded-t-3xl"
             />
             <p
-              class="tracking-wider mt-3 lg:text-[20px] sm:text-[18px]
+              className="tracking-wider mt-3 lg:text-[20px] sm:text-[18px]
               xs:text-[10px] text-[18px] mx-5 text-center"
             >
               Get affordable flights from wherever you are
@@ -144,7 +144,7 @@ const Services = () => {
         <div className="carousel">
           <a
             href="#"
-            class="h-full bg-white border border-gray-200 rounded-3xl xs:w-[320px] w-full shadow"
+            className="h-full bg-white border border-gray-200 rounded-3xl xs:w-[320px] w-full shadow"
           >
             <img
               src={service2}
@@ -152,7 +152,7 @@ const Services = () => {
               className="w-full max-h-250px rounded-t-3xl"
             />
             <p
-              class="tracking-wider mt-3 lg:text-[20px] sm:text-[18px]
+              className="tracking-wider mt-3 lg:text-[20px] sm:text-[18px]
               xs:text-[10px] text-[18px] mx-5 text-center"
             >
               Get affordable flights from wherever you are

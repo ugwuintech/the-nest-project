@@ -14,7 +14,7 @@ const ContactUs = () => {
       </motion.h1>
       <motion.p
         variants={slideIn("left", "tween", 0.1, 1)}
-        class="font-medium tracking-wider mt-3 lg:text-[20px] sm:text-[16px]
+        className="font-medium tracking-wider mt-3 lg:text-[20px] sm:text-[16px]
               xs:text-[10px] text-[16px] mx-10 mb-5 text-center "
       >
         Subscribe to our news letter and get our latest updates and offers as

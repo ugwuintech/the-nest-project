@@ -12,6 +12,9 @@ import service3 from "./service3.png";
 import africa from "./Africa.png";
 import europe from "./slide 3.png";
 import germany from "./slide 2.png";
+import airportcar from "./airportcar.png";
+import avail from "./247.png";
+import yourguide from "./yourguide.png";
 
 export {
   menu,
@@ -28,4 +31,7 @@ export {
   africa,
   europe,
   germany,
+  airportcar,
+  avail,
+  yourguide,
 };
